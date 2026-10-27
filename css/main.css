@@ -1,0 +1,592 @@
+/* global style */
+.w-100 {
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.color{
+  color: rgb(170, 170, 170);
+}
+.br-20{
+  border-radius: 20px;
+}
+.w-50 {
+  width: 50%;
+}
+.d-block{
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.font-250 {
+  font-size: 250%;
+}
+.font-200{
+  font-size: 200%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-25{
+  width: 25%;
+}
+.w-85{
+  width: 85;
+}
+.w-33{
+  width: 33.333%;
+}
+.mb-20{
+margin-bottom:20px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.m-10{
+  margin: 10px;
+}
+.sb{
+  justify-content: space-around;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.font-120{
+  font-size: 120%;
+}
+.p-40 {
+  padding: 40px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-10{
+  padding: 10px;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* nav */
+.nav {
+  background-color: #f5f3ff;
+  margin-bottom: 20px;
+  z-index: 99999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.nav-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav-right ul {
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  margin: 20px;
+}
+.nav-right a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.nav-left img {
+  background-color: blueviolet;
+  margin: 10px;
+  width: 50px;
+  border-radius: 15px;
+}
+.nav-left h3 {
+  color: rgb(0, 0, 0);
+  margin: 25px;
+}
+/* HOME */
+
+.home .container {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.home-left {
+  position: relative;
+}
+.home-left img {
+  width: 500px;
+  border-radius: 45px;
+  border: rgb(224, 227, 231) solid 3px;
+  padding: 20px;
+}
+.home-left button {
+  background-color: rgb(142, 81, 255);
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.home-right button {
+  background-color: rgb(166, 132, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.home-right h3 {
+  font-size: 300%;
+  margin-top: 20px;
+  color: rgb(51, 51, 51);
+}
+span {
+  color: rgb(142, 81, 255);
+}
+.home-right p {
+  font-size: 150%;
+}
+.home-right .price {
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.price #b-save {
+  background-color: rgb(255, 226, 226);
+  color: rgb(231, 0, 11);
+}
+.price .button-buy #b-buy-1 {
+  width: 120%;
+  background-color: rgb(142, 81, 255);
+  color: white;
+  margin-bottom: 15px;
+  flex-grow: 2;
+  cursor: pointer;
+}
+.price .button-buy #b-buy-2 {
+  width: 120%;
+  color: black;
+  border: grey solid 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button-buy:hover {
+  transition: cubic-bezier(0.25, 0.46, 1, 1.94);
+  transition-duration: 1s;
+  transform: scaleZ(100%);
+  scale: 1.1;
+}
+/* Specifications  */
+.Specifications h2 {
+  text-align: center;
+  font-size: 250%;
+}
+.Specifications {
+  background-color: rgb(247, 245, 255);
+}
+
+/* card-1 */
+.inner{
+  background-color: rgb(255,255,255);
+  width: 31%;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.card-1 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.card-1 .quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-1 #video{
+  color: rgb(119,119,119);
+}
+.card-1:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+
+/* card-2 */
+
+.card-2 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.span2{
+color: rgb(0,146,184);
+}
+.quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-2 #camera{
+  color: rgb(119,119,119);
+}
+.card-2:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+ 
+/* card-3 */
+.card-3 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.span3{
+color: rgb(0,153,112);
+}
+.quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-3 #battery{
+  color: rgb(119,119,119);
+}
+.card-3:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+/* card-4 */
+.card-4 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.span4{
+color: rgb(245,74,0);
+}
+.quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-4 #satellite{
+  color: rgb(119,119,119);
+}
+.card-4:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+/* card-5 */
+.card-5 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.span5{
+color: rgb(24,138,209);
+}
+.quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-5 #safty{
+  color: rgb(119,119,119);
+}
+.card-5:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+/* card-6 */
+.card-6 img{
+  background-color: rgb(237,233,254);
+  border-radius: 15px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+.span6{
+color:rgb(236,0,63);
+}
+.quality{
+  color: rgb(107,78,160);
+  font-size: 150%;
+}
+.card-6 #gauge{
+  color: rgb(119,119,119);
+}
+.card-6:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+/* ----sec-hero---- */
+.hero{
+  background-color: rgb(127,34,254);
+  color: white;
+  border-radius: 25px;
+   margin: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hero button{
+  background-color: white;
+  border-radius: 15px;
+  color:rgb(127,34,254) ;
+  border: none;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+
+/*  Rating & Review */
+
+.Rating-Review {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+/* RATING */
+.rating {
+  border: 2px solid gainsboro;
+  border-radius: 20px;
+  position: sticky;
+  top: 20px;
+  z-index: 999;
+}
+
+
+/* REVIEW */
+
+.card-r-1{
+  border: 3px solid gainsboro;
+  border-radius: 20px; 
+  padding: 15px;
+}
+.review img{
+  width: 50px;
+  border-radius: 40px 40px;
+  border: 3px solid rgb(107,78,160);
+  margin: 8px;
+}
+.review p{
+  display: inline-block;
+}
+.time{
+  text-align: right;
+  padding-left: 50px;
+}
+.time button{
+  border-radius: 10px;
+  background-color: rgb(237,233,254);
+  color: blueviolet;
+  border: none;
+  display: block;
+}
+
+/* card-2 */
+.card-r-2{
+  border: 3px solid gainsboro;
+  border-radius: 20px; 
+  padding: 15px;
+  position: relative;
+}
+
+
+/* card-3 */
+.card-r-3{
+  border: 3px solid gainsboro;
+  border-radius: 20px; 
+  padding: 15px;
+}
+
+
+/* card-4 */
+.card-r-4{
+  border: 3px solid gainsboro;
+  border-radius: 20px; 
+  padding: 15px;
+}
+
+/* button */
+.load button{
+  background-color: rgb(142,81,255);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+.load button:hover{
+  background-color: white;
+  color: #8a2be2;
+  border: 2px solid blueviolet;
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
+
+
+/* Related Products  */
+.Related-Products{
+  background-color: rgb(247,245,255);
+} 
+
+.inner-2{
+border: 2px solid gainsboro;
+border-radius: 20px;
+background-color: white;
+padding: 15px;
+
+}
+.inner-2 img{
+  border-radius: 20px;
+}
+.inner-2 button{
+  border-radius: 20px;
+  background-color: rgb(142,81,255);
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.inner-2 img:hover{
+transform: translateY(-7px);
+transition-duration: 0.5s;
+}
+
+
+/* button */
+.Accessories button{
+  background-color: rgb(142,81,255);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+.Accessories button:hover{
+  background-color: white;
+  color: #8a2be2;
+  border: 2px solid blueviolet;
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
+.image-1{
+  position: relative;
+}
+
+#b1{
+   background-color: rgb(0,187,167);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.image-2{
+  position: relative;
+}
+
+#b2{
+  background-color: rgb(0,201,80);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.image-3{
+  position: relative;
+}
+
+#b3{
+   background-color: rgb(0,184,219);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.image-4{
+  position: relative;
+}
+
+#b4{
+   background-color: rgb(255,105,0);
+  border-radius: 15px;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.contact{
+  background-color: rgb(16,24,40);
+  color: white;
+}
+.sec1 #helicopter{
+background-color: blueviolet;
+  margin: 10px;
+  width: 50px;
+  border-radius: 15px;
+}
+.icon-1:hover{
+background-color: rgb(128, 171, 223);
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
+.icon-2:hover{
+background-color: royalblue;
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
+.icon-3:hover{
+background-color: rgb(195, 0, 255);
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
+.icon-4:hover{
+background-color: red;
+  transition-duration: 1s;
+  transition-delay: 0.05s;
+}
